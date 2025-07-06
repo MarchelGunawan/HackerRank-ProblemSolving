@@ -31,9 +31,9 @@ This is the square matrix.
 The first diagonal of left to right is 1 and right to left is 3. 
 <table>
   <tr>
-    <th style="color:red">1</th>
+    <th ><span style="color:red">1</span></th>
     <td>2</td>
-    <th style="color:red">3</th>
+    <th ><span style="color:red">3</span></th>
   </tr>
   <tr>
     <td>4</td>
@@ -52,13 +52,13 @@ after that it will go to 5 in the middle
 
 <table>
   <tr>
-    <td style="color:green">1</td>
+    <td ><span style="color:green">1</span></td>
     <td>2</td>
-    <td style="color:green">3</td>
+    <td ><span style="color:green">3</span></td>
   </tr>
   <tr>
     <td>4</td>
-    <th style="color:red">5</th>
+    <th ><span style="color:red">5</span></th>
     <td>6</td>
   </tr>
   <tr>
@@ -73,26 +73,26 @@ so 5 - 5 = 0
 The last one is 9 and 9.
 <table>
   <tr>
-    <td style="color:green">1</td>
+    <td ><span style="color:green">1</span></td>
     <td>2</td>
-    <td style="color:green">3</td>
+    <td ><span style="color:green">3</span></td>
   </tr>
   <tr>
     <td>4</td>
-    <td style="color:green">5</td>
+    <td ><span style="color:green">5</span></td>
     <td>6</td>
   </tr>
   <tr>
-    <th style="color:red">9</th>
+    <th ><span style="color:red">9</span></th>
     <td>8</td>
-    <th style="color:red">9</th>
+    <th ><span style="color:red">9</span></th>
   </tr>
 </table>
 
 so 9 - 9 = 0
 
 Sum all of that and the result must absolute
-|-2 + 0 + 0| = 2  
+$|-2 + 0 + 0| = 2$ 
 
 This is the code
 ```python
