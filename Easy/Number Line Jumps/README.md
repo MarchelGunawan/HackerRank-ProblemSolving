@@ -12,25 +12,15 @@ You have to figure out a way to get both kangaroos at the same location at the s
 Since in this case have 2 kangaroos with different start point and move rate per jump.
 
 The position of first kangaroo is:
-$$
-x_1+n_{th}.v_1
-$$
+$$x_1+n_{th}.v_1$$
 
 The position of second kangaroo is:
-$$
-x_2+n_{th}.v_2
-$$
+$$x_2+n_{th}.v_2$$
 
 So to make them meet each other we can use this equation:
-$$
-x_1+n_{th}.v_1 = x_2+n_{th}.v_2
-$$
-$$
-OR
-$$
-$$
-n_{th} = \frac{x_2-x_1}{v_1-v_2}
-$$
+$$x_1+n_{th}.v_1 = x_2+n_{th}.v_2$$
+$$OR$$
+$$n_{th} = \frac{x_2-x_1}{v_1-v_2}$$
 
 
 ```python
@@ -49,10 +39,7 @@ if v1 == v2:
   return 'YES' if x1 == x2 else 'NO'
 ```
 
-For the second if statement is used for checking the movement is integer not float especially in $(x_2-x_1)\bmod(v_1-v_2)$ and to know the kangaroos meet each other on which n jump we can use equation 
-$
-n_{th} = \frac{x_2-x_1}{v_1-v_2}
-$
+For the second if statement is used for checking the movement is integer not float especially in $(x_2-x_1)\bmod(v_1-v_2)$ and to know the kangaroos meet each other on which n jump we can use equation $n_{th} = \frac{x_2-x_1}{v_1-v_2}$
 
 which that state on second condition after checking movement is integer.
 ```python
