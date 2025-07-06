@@ -4,22 +4,14 @@ Given an array of integers, calculate the ratios of its elements that are positi
 Note: This challenge introduces precision problems. The test cases are scaled to six decimal places, though answers with absolute error of up to  are acceptable.
 
 Example
-$$
-arr = [1,1,0,-1,-1]
-$$
+$$arr = [1,1,0,-1,-1]$$
 
 There are 5 elements: two positive, two negative and one zero. Their ratios are
-$
-\frac{2}{5} = 0.40000
-$
+$\frac{2}{5} = 0.40000$
 ,
-$
-\frac{2}{5} = 0.40000
-$
+$\frac{2}{5} = 0.40000$
 ,
-$
-\frac{1}{5} = 0.20000
-$
+$\frac{1}{5} = 0.20000$
 
 ```
 0.400000

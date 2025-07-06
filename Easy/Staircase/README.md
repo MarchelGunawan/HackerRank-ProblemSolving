@@ -2,9 +2,7 @@
 Staircase detail
 
 This is a staircase of size 
-$
-n = 4
-$
+$n = 4$
 :
 ```
    #

@@ -23,13 +23,9 @@ For example, Sam's house is between s = 7 and t = 10. The apple tree is located 
 # Solution
 From the case we know that to decide the location of each apples and oranges by using 
 
-$
-apples = [a+apples[0], a+apples[1], a+apples[2], a+...apples[n]]
-$
+$apples = [a+apples[0], a+apples[1], a+apples[2], a+...apples[n]]$
 
-$
-oranges = [b+oranges[0], b+oranges[1], b+oranges[2], b+...oranges[n]]
-$
+$oranges = [b+oranges[0], b+oranges[1], b+oranges[2], b+...oranges[n]]$
 
 ```python
 def countApplesAndOranges(s, t, a, b, apples, oranges):
