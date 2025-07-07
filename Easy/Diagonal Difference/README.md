@@ -31,9 +31,9 @@ This is the square matrix.
 The first diagonal of left to right is 1 and right to left is 3. 
 <table>
   <tr>
-    <th ><span style="color:red">1</span></th>
+    <th >$\textcolor{#ff0000}{text}1$</th>
     <td>2</td>
-    <th ><span style="color:red">3</span></th>
+    <th >$\textcolor{#ff0000}{text}3$</th>
   </tr>
   <tr>
     <td>4</td>
@@ -52,13 +52,13 @@ after that it will go to 5 in the middle
 
 <table>
   <tr>
-    <td ><span style="color:green">1</span></td>
+    <td >$\textcolor{#00ff00}{1}$</td>
     <td>2</td>
-    <td ><span style="color:green">3</span></td>
+    <td >$\textcolor{#00ff00}{3}$</td>
   </tr>
   <tr>
     <td>4</td>
-    <th ><span style="color:red">5</span></th>
+    <th >$\textcolor{#ff0000}{5}$</th>
     <td>6</td>
   </tr>
   <tr>
@@ -73,19 +73,19 @@ so 5 - 5 = 0
 The last one is 9 and 9.
 <table>
   <tr>
-    <td ><span style="color:green">1</span></td>
+    <td >$\textcolor{#00ff00}{1}$</td>
     <td>2</td>
-    <td ><span style="color:green">3</span></td>
+    <td >$\textcolor{#00ff00}{3}$</td>
   </tr>
   <tr>
     <td>4</td>
-    <td ><span style="color:green">5</span></td>
+    <td >$\textcolor{#00ff00}{5}$</td>
     <td>6</td>
   </tr>
   <tr>
-    <th ><span style="color:red">9</span></th>
+    <th>$\textcolor{#ff0000}{9}$</th>
     <td>8</td>
-    <th ><span style="color:red">9</span></th>
+    <th>$\textcolor{#ff0000}{9}$</th>
   </tr>
 </table>
 
