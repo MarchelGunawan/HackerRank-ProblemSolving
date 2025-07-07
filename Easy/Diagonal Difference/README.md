@@ -31,9 +31,9 @@ This is the square matrix.
 The first diagonal of left to right is 1 and right to left is 3. 
 <table>
   <tr>
-    <th >$\textcolor{#ff0000}{text}1$</th>
+    <td>$\textcolor{#ff0000}{1}$</td>
     <td>2</td>
-    <th >$\textcolor{#ff0000}{text}3$</th>
+    <td>$\textcolor{#ff0000}{3}$</td>
   </tr>
   <tr>
     <td>4</td>
