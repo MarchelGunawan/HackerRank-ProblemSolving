@@ -12,7 +12,6 @@ def divisibleSumPairsTwo(n: int, k: int, ar: list):
     comb = combinations(ar,2)
     count = 0
     for i in comb:
-        print(i)
         if (sum(i)%k == 0):
             count += 1
 
