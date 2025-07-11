@@ -1,7 +1,6 @@
 def migratoryBirds(arr):
-    from collections import Counter
-
-    count = Counter(arr)
+    typeBirds = list(set(arr)).sort()
+    count = {i: arr.count(i) for i in typeBirds}
     typeOfBird = [0,0]
     for key, value in count.items():
         if typeOfBird[1] < value:

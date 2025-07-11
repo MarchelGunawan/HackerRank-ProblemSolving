@@ -15,6 +15,7 @@ Manually count:
 ```python3
 arr = [1,1,2,2,3]
 typeOfBird = list(set(arr)) # <- to drop duplicate number so it will be [1,2,3]
+typeOfBird.sort() # <- There is a chance that number is random
 countEachBird = {i: arr.count(i) for i in typeOfBird} # <- {1: 2, 2: 2, 3: 1}
 ```
 
@@ -28,9 +29,8 @@ countEachBird = Counter(arr) <- {1: 2, 2: 2, 3: 1}
 Here is full code:
 ```python3
 def migratoryBirds(arr):
-    from collections import Counter
-
-    count = Counter(arr)
+    typeBirds = list(set(arr)).sort()
+    count = {i: arr.count(i) for i in typeBirds}
     typeOfBird = [0,0] # <- typeOfBird[0] is for type of bird and typeOfBird[1] is for result count of type birds
     for key, value in count.items():
         if typeOfBird[1] < value:
